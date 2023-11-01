@@ -1,7 +1,7 @@
-# RHEOL_GUI
+# RHEOL_GUI_App
 [Matlab](https://www.mathworks.com/products/matlab.html)-based [graphical user interface](https://www.mathworks.com/discovery/matlab-gui.html) for constructing strength profiles
 
-To start the GUI, simply type "RHEOL_GUI" in the command window.
+To start the GUI, simply type "RHEOL_GUI_App" in the command window.
 The GUI reads a defaul parameter files "Defaul.rhl". It is assumed that all rheology parameter files have extension .rhl
 
 ## Description of the GUI
@@ -53,6 +53,7 @@ Several outputs are defined:
 * Reinforce command line functionality. If a .rhl file exists, it can be convered into a model structure using *parse_script*. Model structures can be saved as .rhl file using *save_script*. It should be possible to compute strength profiles using *recalc_model*, *calc_profile*, *Define_Layers*, *viz_strength* and/or *RheologyFigureExport* but full functionality is not yet tested. Use [RHEOL](https://github.com/montesi/RHEOL) for a command line approach, including command line interface to construct model. 
 * Integrate directly with SCEC CTM. At this point, thermal structure have to be provided as .thm files (simple depth-temperature ASCII table).
 * Implement multi-phase mixtures.
+* Reinforce functionality of editGrainSize.
 * I'm open to suggestions and contributions.
 
 This software was build with support from [Southern Califormia Earthquake Center](https://www.scec.org/) grant 17170 and [National Science Foundation](https://www.nsf.gov/EAR) Grant 1419826.
